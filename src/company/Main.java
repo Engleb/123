@@ -10,6 +10,8 @@ public class Main {
 
     private void run() {
         int[] mass = fillMass(20);
+
+
         int max = mass[0];
         for (int i = 1; i < mass.length; i++) {
             if (mass[i]>max) max = mass[i];
