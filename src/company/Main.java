@@ -1,5 +1,6 @@
 package company;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
 
@@ -24,6 +25,7 @@ public class Main {
     }
 
     private int[] fillMass(int n ) {
+//        int n = new Scanner(System.in).nextInt();
         int[] mass = new int[n];
         Random random = new Random();
         for (int i = 0; i < n; i++) {
