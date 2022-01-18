@@ -14,10 +14,12 @@ public class Main {
 
           int max = mass[0];
         int i = 1;
-          while (i < mass.length){
-              if (mass[i]>max) max = mass[i];
-              i++;
-          }
+        if (i < mass.length) {
+            do {
+                if (mass[i] > max) max = mass[i];
+                i++;
+            } while (i < mass.length);
+        }
 
         System.out.println(max);
 
